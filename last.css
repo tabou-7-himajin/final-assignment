@@ -1,0 +1,75 @@
+body{
+  text-align: center;
+  background-color: #F4EDFF;
+}
+
+#title{
+  font-size: 40px;
+
+  color: #fff;
+  text-shadow:
+    1.5px 1.5px 0 #3A90DD,
+    -1.5px 1.5px 0 #3A90DD,
+    -1.5px -1.5px 0 #3A90DD,
+    1.5px -1.5px 0 #3A90DD;
+
+  line-height: 200%;
+  width: 500px;
+  height: 80px;
+  margin: 40px auto 40px;
+  background-color:#B9EFFF ;
+  border: 4px #5AAAEB dashed;
+}
+
+#setsumei{
+  font-size: 20px;
+  color: #2673A2;
+}
+
+#tyuusyaku{
+  font-size: 16px;
+  color: #8EA5C2;
+}
+
+#ask{
+  font-size: 22px;
+  color: #2673A2;
+  text-decoration: underline;
+}
+
+#choice{
+  color: #2673A2;
+}
+
+#seiza{
+  font-size: 15px;
+  color: #2673A2;
+  height: 25px;
+}
+
+#checkButton{
+  font-size: 15px;
+  color: #2673A2;
+  height: 30px;
+  width: 50px;
+  margin: 10px auto 10px;
+}
+
+.kugiri{color: #2673A2;}
+
+#sName{
+  font-size: 25px;
+  background-color: #F8FFD8;
+  width: 200px;
+  margin: 10px auto 20px;
+  color: #2673A2;
+}
+
+#disp{
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #F8FFD8;
+  width: 420px;
+  margin: 10px auto 20px;
+  color: #2673A2;
+}
