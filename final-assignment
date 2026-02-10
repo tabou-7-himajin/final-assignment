@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>最終課題</title>
+  <link rel="stylesheet" href="last.css">
+</head>
+<body>
+  <h2 id="title">本日のタロットカード</h2>
+  <p id="setsumei">
+    自身の星座を選択すると、本日のタロットカードが表示されます。
+  </p>
+  <p id="tyuusyaku">
+    ※これはあなたの運勢を保証するものではございません。
+    <br>タロットカードの意味は、ご自身でお調べください。
+    <br><br>
+  </p>
+
+
+  <h3 id="ask">あなたの星座は？</h3>
+  <label id="choice" for="seiza">この中から選択してください</label>
+  <select id="seiza">
+    <option value="0">おひつじ座</option>
+    <option value="7">おうし座</option>
+    <option value="1">ふたご座</option>
+    <option value="6">かに座</option>
+    <option value="9">しし座</option>
+    <option value="3">おとめ座</option>
+    <option value="5">てんびん座</option>
+    <option value="11">さそり座</option>
+    <option value="4">いて座</option>
+    <option value="8">やぎ座</option>
+    <option value="10">みずがめ座</option>
+    <option value="2">うお座</option>
+  </select>
+
+  <div>
+  <input type="button" value="表示" id="checkButton">
+  </div>
+
+  <p class="kugiri">ーーーーーーーーーーーーーー</p>
+
+  <h3 id="sName"style="white-space: pre-wrap;"></h3>
+  <p id="disp" style="white-space: pre-wrap;"></p>
+  <script src="last.js"></script>
+
+  <p class="kugiri">ーーーーーーーーーーーーーー</p>
+
+
+</body>
+</html>
