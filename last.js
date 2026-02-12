@@ -2,7 +2,7 @@
   const tarotCards = [
     "IV 皇帝",　"XVII 星", "X 運命の輪", "IX 隠者", "VI 恋人",
     "XII 吊るされた男", "II 女教皇", "0 愚者", "VIII 力", "XIII 死神",
-    "III 女帝", "XVIII 月", "XV 悪魔", "XXI 世界" "XIV 節制",
+    "III 女帝", "XVIII 月", "XV 悪魔", "XXI 世界", "XIV 節制",
     "XI 正義", "XIX 太陽", "I 魔術師", "VII 戦車", "XVI 塔", "XX 審判",
     "V 教皇"
   ];
